@@ -1,0 +1,31 @@
+<configs>
+  <append xpath="/traders/trader_item_groups/trader_item_group[@name='rareBooks']">
+	  <item name="vehicleScramblerBlueChassisSchematic"/>
+    <item name="vehicleScramblerGreenChassisSchematic"/>
+	  <item name="vehicleScramblerRedChassisSchematic"/>
+	  <item name="vehicleScramblerAccessoriesSchematic"/>
+	  <item name="vehicleF100ChassisSchematic"/>
+	  <item name="vehicleF100AccessoriesSchematic"/>
+    <item name="vehicleRoadsterChassisSchematic"/>
+	  <item name="vehicleRoadsterAccessoriesSchematic"/>
+	  <item name="vehicleHearseChassisSchematic"/>
+	  <item name="vehicleHearseAccessoriesSchematic"/>
+	  <item name="vehicleTumblerChassisSchematic"/>
+	  <item name="vehicleTumblerAccessoriesSchematic"/>
+	  <item name="vehicleAlphaAccessoriesSchematic"/>
+	  <item name="vehicleAlphaWheelSchematic"/>
+	  <item name="vehicleAlphaChassisSchematic"/>
+	  <item name="vehicleAxelWheelSchematic"/>
+	  <item name="vehicleAxelAxleSchematic"/>
+	  <item name="vehicleKolunChassisSchematic"/>
+	  <item name="vehicleKolunAccessoriesSchematic"/>
+	  <item name="vehicleMowerAccessoriesSchematic"/>
+	  <item name="vehicleMowerChassisSchematic"/>
+	  <item name="vehicleATeamVanChassisSchematic"/>
+	  <item name="vehicleATeamVanAccessoriesSchematic"/>
+	</append>
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='vehiclePartsT1']">
+		<item name="vehicleImperialPlaceable"/>
+	  <item name="vehicleHalfTonPlaceable"/>
+	</append>
+</configs>

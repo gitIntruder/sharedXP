@@ -1,0 +1,159 @@
+<configs>
+	<append xpath="/nav_object_classes">
+		<!--SCRAMBLER-->
+		<nav_object_class name="scrambler" extends="bicycle">
+			<property name="requirement_type" value="IsVehicleOwner" />
+
+			<compass_settings>
+				<property name="sprite_name" value="scramblerUIicon"/>
+			</compass_settings>
+
+			<onscreen_settings>
+				<property name="sprite_name" value="scramblerUIicon"/>
+			</onscreen_settings>
+		</nav_object_class>
+
+		<!--TUMBLER-->
+		<nav_object_class name="tumbler" extends="bicycle">
+			<property name="requirement_type" value="IsVehicleOwner" />
+
+			<compass_settings>
+				<property name="sprite_name" value="tumblerUIicon"/>
+			</compass_settings>
+
+			<onscreen_settings>
+				<property name="sprite_name" value="tumblerUIicon"/>
+			</onscreen_settings>
+		</nav_object_class>
+
+		<!--MOWER-->
+		<nav_object_class name="mower" extends="bicycle">
+			<property name="requirement_type" value="IsVehicleOwner" />
+
+			<compass_settings>
+				<property name="sprite_name" value="mowerUIicon"/>
+			</compass_settings>
+
+			<onscreen_settings>
+				<property name="sprite_name" value="mowerUIicon"/>
+			</onscreen_settings>
+		</nav_object_class>
+
+		<!--A-TEAM-->
+		<nav_object_class name="aTeam" extends="bicycle">
+			<property name="requirement_type" value="IsVehicleOwner" />
+
+			<compass_settings>
+				<property name="sprite_name" value="aTeamVanUIicon"/>
+			</compass_settings>
+
+			<onscreen_settings>
+				<property name="sprite_name" value="aTeamVanUIicon"/>
+			</onscreen_settings>
+		</nav_object_class>
+
+		<!--AXEL-->
+		<nav_object_class name="axel" extends="bicycle">
+			<property name="requirement_type" value="IsVehicleOwner" />
+
+			<compass_settings>
+				<property name="sprite_name" value="axelUIicon"/>
+			</compass_settings>
+
+			<onscreen_settings>
+				<property name="sprite_name" value="axelUIicon"/>
+			</onscreen_settings>
+		</nav_object_class>
+
+		<!--KOLUN-->
+		<nav_object_class name="kolun" extends="bicycle">
+			<property name="requirement_type" value="IsVehicleOwner" />
+
+			<compass_settings>
+				<property name="sprite_name" value="kolunUIicon"/>
+			</compass_settings>
+
+			<onscreen_settings>
+				<property name="sprite_name" value="kolunUIicon"/>
+			</onscreen_settings>
+		</nav_object_class>
+
+		<!--ALPHA-->
+		<nav_object_class name="alpha" extends="bicycle">
+			<property name="requirement_type" value="IsVehicleOwner" />
+
+			<compass_settings>
+				<property name="sprite_name" value="alphaUIicon"/>
+			</compass_settings>
+
+			<onscreen_settings>
+				<property name="sprite_name" value="alphaUIicon"/>
+			</onscreen_settings>
+		</nav_object_class>
+
+		<!--HEARSE-->
+		<nav_object_class name="hearse" extends="bicycle">
+			<property name="requirement_type" value="IsVehicleOwner" />
+
+			<compass_settings>
+				<property name="sprite_name" value="hearseUIicon"/>
+			</compass_settings>
+
+			<onscreen_settings>
+				<property name="sprite_name" value="hearseUIicon"/>
+			</onscreen_settings>
+		</nav_object_class>
+
+		<!--IMPERIAL-->
+		<nav_object_class name="imperial" extends="bicycle">
+			<property name="requirement_type" value="IsVehicleOwner" />
+
+			<compass_settings>
+				<property name="sprite_name" value="imperialUIicon"/>
+			</compass_settings>
+
+			<onscreen_settings>
+				<property name="sprite_name" value="imperialUIicon"/>
+			</onscreen_settings>
+		</nav_object_class>
+
+		<!--HALF TON-->
+		<nav_object_class name="halfton" extends="bicycle">
+			<property name="requirement_type" value="IsVehicleOwner" />
+
+			<compass_settings>
+				<property name="sprite_name" value="halfTonUIicon"/>
+			</compass_settings>
+
+			<onscreen_settings>
+				<property name="sprite_name" value="halfTonUIicon"/>
+			</onscreen_settings>
+		</nav_object_class>
+
+		<!--ROADSTER-->
+		<nav_object_class name="roadster" extends="bicycle">
+			<property name="requirement_type" value="IsVehicleOwner" />
+
+			<compass_settings>
+				<property name="sprite_name" value="roadsterUIicon"/>
+			</compass_settings>
+
+			<onscreen_settings>
+				<property name="sprite_name" value="roadsterUIicon"/>
+			</onscreen_settings>
+		</nav_object_class>
+
+		<!--F100-->
+		<nav_object_class name="f100" extends="bicycle">
+			<property name="requirement_type" value="IsVehicleOwner" />
+
+			<compass_settings>
+				<property name="sprite_name" value="f100UIicon"/>
+			</compass_settings>
+
+			<onscreen_settings>
+				<property name="sprite_name" value="f100UIicon"/>
+			</onscreen_settings>
+		</nav_object_class>
+	</append>
+</configs>
