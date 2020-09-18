@@ -33,6 +33,10 @@
     <item name="vehicleScramblerGreenChassisSchematic"/>
 	  <item name="vehicleScramblerRedChassisSchematic"/>
 	  <item name="vehicleScramblerAccessoriesSchematic"/>
+		<item name="vehiclePredatorPearlChassisSchematic"/>
+    <item name="vehiclePredatorSapphireChassisSchematic"/>
+	  <item name="vehiclePredatorApricotChassisSchematic"/>
+	  <item name="vehiclePredatorAccessoriesSchematic"/>
 	</append>
 
 	<append xpath="/lootcontainers/lootgroup[@name='booksAllScaled']">

@@ -280,5 +280,65 @@
       <property name="MapIcon" value="scramblerUIicon"/>
       <property name="NavObject" value="scrambler" />
     </entity_class>
+    <entity_class name="vehiclePredatorSapphire">
+      <property name="Tags" value="vehicle"/>
+      <property name="Class" value="EntityVJeep"/>
+      <property name="Parent" value="Cars"/>
+      <property name="Prefab" value="#@modfolder:Resources/predatorSapphire.unity3d?predatorSapphirePrefab.prefab"/>
+      <property name="ModelType" value="Standard"/>
+      <property name="SurfaceCategory" value="metal"/>
+      <property name="IgnoreTrigger" value="true"/>
+      <property name="LootListAlive" value="222"/>
+      <property name="IsEnemyEntity" value="false"/>
+      <property name="Explosion.ParticleIndex" value="6"/>
+      <property name="Explosion.RadiusBlocks" value="5"/>
+      <property name="Explosion.RadiusEntities" value="250"/>
+      <property name="Explosion.BlockDamage" value="100"/>
+      <property name="Explosion.EntityDamage" value="100"/>
+      <property name="RotateToGround" value="true"/>
+      <property name="Faction" value="none"/>
+      <property name="MapIcon" value="predatorUIicon"/>
+      <property name="NavObject" value="predator" />
+    </entity_class>
+    <entity_class name="vehiclePredatorApricot">
+      <property name="Tags" value="vehicle"/>
+      <property name="Class" value="EntityVJeep"/>
+      <property name="Parent" value="Cars"/>
+      <property name="Prefab" value="#@modfolder:Resources/predatorApricot.unity3d?predatorApricotPrefab.prefab"/>
+      <property name="ModelType" value="Standard"/>
+      <property name="SurfaceCategory" value="metal"/>
+      <property name="IgnoreTrigger" value="true"/>
+      <property name="LootListAlive" value="222"/>
+      <property name="IsEnemyEntity" value="false"/>
+      <property name="Explosion.ParticleIndex" value="6"/>
+      <property name="Explosion.RadiusBlocks" value="5"/>
+      <property name="Explosion.RadiusEntities" value="250"/>
+      <property name="Explosion.BlockDamage" value="100"/>
+      <property name="Explosion.EntityDamage" value="100"/>
+      <property name="RotateToGround" value="true"/>
+      <property name="Faction" value="none"/>
+      <property name="MapIcon" value="predatorUIicon"/>
+      <property name="NavObject" value="predator" />
+    </entity_class>
+    <entity_class name="vehiclePredatorPearl">
+      <property name="Tags" value="vehicle"/>
+      <property name="Class" value="EntityVJeep"/>
+      <property name="Parent" value="Cars"/>
+      <property name="Prefab" value="#@modfolder:Resources/predatorPearl.unity3d?predatorPearlPrefab.prefab"/>
+      <property name="ModelType" value="Standard"/>
+      <property name="SurfaceCategory" value="metal"/>
+      <property name="IgnoreTrigger" value="true"/>
+      <property name="LootListAlive" value="222"/>
+      <property name="IsEnemyEntity" value="false"/>
+      <property name="Explosion.ParticleIndex" value="6"/>
+      <property name="Explosion.RadiusBlocks" value="5"/>
+      <property name="Explosion.RadiusEntities" value="250"/>
+      <property name="Explosion.BlockDamage" value="100"/>
+      <property name="Explosion.EntityDamage" value="100"/>
+      <property name="RotateToGround" value="true"/>
+      <property name="Faction" value="none"/>
+      <property name="MapIcon" value="predatorUIicon"/>
+      <property name="NavObject" value="predator" />
+    </entity_class>
   </append>
 </configs>

@@ -23,6 +23,10 @@
 	  <item name="vehicleMowerChassisSchematic"/>
 	  <item name="vehicleATeamVanChassisSchematic"/>
 	  <item name="vehicleATeamVanAccessoriesSchematic"/>
+		<item name="vehiclePredatorAccessoriesSchematic"/>
+		<item name="vehiclePredatorApricotChassisSchematic"/>
+		<item name="vehiclePredatorSapphireChassisSchematic"/>
+		<item name="vehiclePredatorPearlChassisSchematic"/>
 	</append>
 	<append xpath="/traders/trader_item_groups/trader_item_group[@name='vehiclePartsT1']">
 		<item name="vehicleImperialPlaceable"/>

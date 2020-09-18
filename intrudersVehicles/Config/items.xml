@@ -602,7 +602,7 @@
       <property name="Extends" value="schematicNoQualityMaster"/>
       <property name="CreativeMode" value="Player"/>
       <property name="CustomIcon" value="vehicleScramblerRedChassisSchemItemIcon"/>
-      <property name="Unlocks" value="vehicleScramblerChassis"/>
+      <property name="Unlocks" value="vehicleScramblerRedChassis"/>
       <property name="EconomicValue" value="15000"/>
       <effect_group tiered="false">
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleScramblerRedChassis" operation="set" value="1"/>
@@ -614,7 +614,7 @@
       <property name="Extends" value="schematicNoQualityMaster"/>
       <property name="CreativeMode" value="Player"/>
       <property name="CustomIcon" value="vehicleScramblerGreenChassisSchemItemIcon"/>
-      <property name="Unlocks" value="vehicleScramblerChassis"/>
+      <property name="Unlocks" value="vehicleScramblerGreenChassis"/>
       <property name="EconomicValue" value="15000"/>
       <effect_group tiered="false">
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleScramblerGreenChassis" operation="set" value="1"/>
@@ -626,10 +626,126 @@
       <property name="Extends" value="schematicNoQualityMaster"/>
       <property name="CreativeMode" value="Player"/>
       <property name="CustomIcon" value="vehicleScramblerBlueChassisSchemItemIcon"/>
-      <property name="Unlocks" value="vehicleScramblerChassis"/>
+      <property name="Unlocks" value="vehicleScramblerBlueChassis"/>
       <property name="EconomicValue" value="15000"/>
       <effect_group tiered="false">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleScramblerRedChassis" operation="set" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleScramblerBlueChassis" operation="set" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleWheels" operation="set" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="500"/>
+      </effect_group>
+    </item>
+
+    <!--PREDATOR-->
+    <item name="vehiclePredatorApricotPlaceable">
+      <property name="Extends" value="vehicleMinibikePlaceable"/>
+      <property name="CustomIcon" value="predatorApricotItemIcon"/>
+      <property name="DescriptionKey" value="vehiclePredatorApricotPlaceableDesc"/>
+      <property name="Meshfile" value="#@modfolder:Resources/predatorApricot.unity3d?predatorApricotPrefab.prefab"/>
+      <property name="EconomicValue" value="2000"/>
+      <property class="Action1">
+        <property name="Vehicle" value="vehiclePredatorApricot"/>
+        <property name="VehicleSize" value="4.7, 4.8, 5"/>
+      </property>
+      <effect_group name="Base Effects">
+        <passive_effect name="DegradationMax" operation="base_set" value="1000"/>
+      </effect_group>
+    </item>
+    <item name="vehiclePredatorSapphirePlaceable">
+      <property name="Extends" value="vehicleMinibikePlaceable"/>
+      <property name="CustomIcon" value="predatorSapphireItemIcon"/>
+      <property name="DescriptionKey" value="vehiclePredatorSapphirePlaceableDesc"/>
+      <property name="Meshfile" value="#@modfolder:Resources/predatorSapphire.unity3d?predatorSapphirePrefab.prefab"/>
+      <property name="EconomicValue" value="2000"/>
+      <property class="Action1">
+        <property name="Vehicle" value="vehiclePredatorSapphire"/>
+        <property name="VehicleSize" value="4.7, 4.8, 5"/>
+      </property>
+      <effect_group name="Base Effects">
+        <passive_effect name="DegradationMax" operation="base_set" value="1000"/>
+      </effect_group>
+    </item>
+    <item name="vehiclePredatorPearlPlaceable">
+      <property name="Extends" value="vehicleMinibikePlaceable"/>
+      <property name="CustomIcon" value="predatorPearlItemIcon"/>
+      <property name="DescriptionKey" value="vehiclePredatorPearlPlaceableDesc"/>
+      <property name="Meshfile" value="#@modfolder:Resources/predatorPearl.unity3d?predatorPearlPrefab.prefab"/>
+      <property name="EconomicValue" value="2000"/>
+      <property class="Action1">
+        <property name="Vehicle" value="vehiclePredatorPearl"/>
+        <property name="VehicleSize" value="4.7, 4.8, 5"/>
+      </property>
+      <effect_group name="Base Effects">
+        <passive_effect name="DegradationMax" operation="base_set" value="1000"/>
+      </effect_group>
+    </item>
+    <item name="vehiclePredatorAccessories">
+      <property name="Extends" value="vehicleWheels"/>
+      <property name="CustomIcon" value="vehicleAccItemIcon"/>
+      <property name="DescriptionKey" value="vehiclePredatorAccessoriesDesc"/>
+      <property name="EconomicValue" value="100"/>
+    </item>
+    <item name="vehiclePredatorAccessoriesSchematic">
+      <property name="Extends" value="schematicNoQualityMaster"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="vehicleAccSchemItemIcon"/>
+      <property name="Unlocks" value="vehiclePredatorAccessories"/>
+      <property name="EconomicValue" value="22500"/>
+      <effect_group tiered="false">
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehiclePredatorAccessories" operation="set" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleWheels" operation="set" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="500"/>
+      </effect_group>
+    </item>
+    <item name="vehiclePredatorApricotChassis">
+      <property name="Extends" value="vehicleWheels"/>
+      <property name="CustomIcon" value="predatorApricotChassisItemIcon"/>
+      <property name="DescriptionKey" value="vehiclePredatorApricotChassisDesc"/>
+      <property name="EconomicValue" value="1000"/>
+    </item>
+    <item name="vehiclePredatorSapphireChassis">
+      <property name="Extends" value="vehicleWheels"/>
+      <property name="CustomIcon" value="predatorSapphireChassisItemIcon"/>
+      <property name="DescriptionKey" value="vehiclePredatorSapphireChassisDesc"/>
+      <property name="EconomicValue" value="1000"/>
+    </item>
+    <item name="vehiclePredatorPearlChassis">
+      <property name="Extends" value="vehicleWheels"/>
+      <property name="CustomIcon" value="predatorPearlChassisItemIcon"/>
+      <property name="DescriptionKey" value="vehiclePredatorPearlChassisDesc"/>
+      <property name="EconomicValue" value="1000"/>
+    </item>
+    <item name="vehiclePredatorSapphireChassisSchematic">
+      <property name="Extends" value="schematicNoQualityMaster"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="vehiclePredatorSapphireChassisSchemItemIcon"/>
+      <property name="Unlocks" value="vehiclePredatorSapphireChassis"/>
+      <property name="EconomicValue" value="20000"/>
+      <effect_group tiered="false">
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehiclePredatorSapphireChassis" operation="set" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleWheels" operation="set" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="500"/>
+      </effect_group>
+    </item>
+    <item name="vehiclePredatorApricotChassisSchematic">
+      <property name="Extends" value="schematicNoQualityMaster"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="vehiclePredatorApricotChassisSchemItemIcon"/>
+      <property name="Unlocks" value="vehiclePredatorApricotChassis"/>
+      <property name="EconomicValue" value="20000"/>
+      <effect_group tiered="false">
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehiclePredatorApricotChassis" operation="set" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleWheels" operation="set" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="500"/>
+      </effect_group>
+    </item>
+    <item name="vehiclePredatorPearlChassisSchematic">
+      <property name="Extends" value="schematicNoQualityMaster"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="vehiclePredatorPearlChassisSchemItemIcon"/>
+      <property name="Unlocks" value="vehiclePredatorPearlChassis"/>
+      <property name="EconomicValue" value="20000"/>
+      <effect_group tiered="false">
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehiclePredatorPearlChassis" operation="set" value="1"/>
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleWheels" operation="set" value="1"/>
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="500"/>
       </effect_group>

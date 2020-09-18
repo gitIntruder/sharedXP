@@ -22,3 +22,5 @@ These vehicles require schematics to be crafted, these schematics can be found i
 ![](https://github.com/gitIntruder/sharedXP/blob/master/intrudersVehicles/Images/Tumbler.png?raw=true)
 ### Scrambler
 ![](https://github.com/gitIntruder/sharedXP/blob/master/intrudersVehicles/Images/Scrambler.png?raw=true)
+### Predator
+![]()

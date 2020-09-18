@@ -241,7 +241,7 @@
       <ingredient name="resourceMechanicalParts" count="10"/>
       <ingredient name="resourceLeather" count="50"/>
       <ingredient name="resourceElectricParts" count="40"/>
-      <ingredient name="resourceHeadlight" count="12"/>
+      <ingredient name="resourceHeadlight" count="4"/>
     </recipe>
     <recipe name="vehicleScramblerRedPlaceable" count="1" craft_area="workbench" craft_time="600" tags="workbenchCrafting">
       <ingredient name="vehicleWheels" count="4"/>
@@ -261,6 +261,57 @@
       <ingredient name="vehicleWheels" count="4"/>
       <ingredient name="vehicleScramblerAccessories" count="1"/>
       <ingredient name="vehicleScramblerBlueChassis" count="1"/>
+      <ingredient name="smallEngine" count="1"/>
+      <ingredient name="carBattery" count="1"/>
+    </recipe>
+
+    <!--PREDATOR-->
+    <recipe name="vehiclePredatorApricotChassis" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+      <ingredient name="resourceElectricParts" count="20"/>
+      <ingredient name="resourceForgedSteel" count="400"/>
+      <ingredient name="resourceMechanicalParts" count="20"/>
+      <ingredient name="resourceDuctTape" count="25"/>
+      <ingredient name="resourceMetalPipe" count="40"/>
+    </recipe>
+    <recipe name="vehiclePredatorSapphireChassis" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+      <ingredient name="resourceElectricParts" count="20"/>
+      <ingredient name="resourceForgedSteel" count="400"/>
+      <ingredient name="resourceMechanicalParts" count="20"/>
+      <ingredient name="resourceDuctTape" count="25"/>
+      <ingredient name="resourceMetalPipe" count="40"/>
+    </recipe>
+    <recipe name="vehiclePredatorPearlChassis" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+      <ingredient name="resourceElectricParts" count="20"/>
+      <ingredient name="resourceForgedSteel" count="400"/>
+      <ingredient name="resourceMechanicalParts" count="20"/>
+      <ingredient name="resourceDuctTape" count="25"/>
+      <ingredient name="resourceMetalPipe" count="40"/>
+    </recipe>
+    <recipe name="vehiclePredatorAccessories" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+      <ingredient name="resourceForgedSteel" count="75"/>
+      <ingredient name="resourceMechanicalParts" count="20"/>
+      <ingredient name="resourceLeather" count="75"/>
+      <ingredient name="resourceElectricParts" count="80"/>
+      <ingredient name="resourceHeadlight" count="6"/>
+    </recipe>
+    <recipe name="vehiclePredatorApricotPlaceable" count="1" craft_area="workbench" craft_time="600" tags="workbenchCrafting">
+      <ingredient name="vehicleWheels" count="4"/>
+      <ingredient name="vehiclePredatorAccessories" count="1"/>
+      <ingredient name="vehiclePredatorApricotChassis" count="1"/>
+      <ingredient name="smallEngine" count="1"/>
+      <ingredient name="carBattery" count="1"/>
+    </recipe>
+    <recipe name="vehiclePredatorSapphirePlaceable" count="1" craft_area="workbench" craft_time="600" tags="workbenchCrafting">
+      <ingredient name="vehicleWheels" count="4"/>
+      <ingredient name="vehiclePredatorAccessories" count="1"/>
+      <ingredient name="vehiclePredatorSapphireChassis" count="1"/>
+      <ingredient name="smallEngine" count="1"/>
+      <ingredient name="carBattery" count="1"/>
+    </recipe>
+    <recipe name="vehiclePredatorPearlPlaceable" count="1" craft_area="workbench" craft_time="600" tags="workbenchCrafting">
+      <ingredient name="vehicleWheels" count="4"/>
+      <ingredient name="vehiclePredatorAccessories" count="1"/>
+      <ingredient name="vehiclePredatorPearlChassis" count="1"/>
       <ingredient name="smallEngine" count="1"/>
       <ingredient name="carBattery" count="1"/>
     </recipe>

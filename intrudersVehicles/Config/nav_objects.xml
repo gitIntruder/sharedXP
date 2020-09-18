@@ -155,5 +155,18 @@
 				<property name="sprite_name" value="f100UIicon"/>
 			</onscreen_settings>
 		</nav_object_class>
+
+		<!--Predator-->
+		<nav_object_class name="predator" extends="bicycle">
+			<property name="requirement_type" value="IsVehicleOwner" />
+
+			<compass_settings>
+				<property name="sprite_name" value="predatorUIicon"/>
+			</compass_settings>
+
+			<onscreen_settings>
+				<property name="sprite_name" value="predatorUIicon"/>
+			</onscreen_settings>
+		</nav_object_class>
 	</append>
 </configs>
